@@ -4,6 +4,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,9 +23,13 @@
   <body>
     <header>
       <img src="./assets/space.png" alt="" />
-      <h1>Explore sem limites</h1>
-      <h2>Porque o aprendizado é contínuo</h2>
-      <img src="./assets/arrow.svg" alt="" />
+      <div>
+        <h1>Explore sem limites</h1>
+        <h2>Porque o aprendizado é contínuo</h2>
+        <a href="#form">
+          <img src="./assets/arrow.svg" alt="" />
+        </a>
+      </div>
     </header>
     <main class="content">
       <section>
@@ -58,7 +67,7 @@
         </main>
       </section>
     </main>
-    <form class="contactForm">
+    <form class="contactForm" id="form">
       <h1>Entre em contato</h1>
       <fieldset>
         <img src="./assets/iconPerson.svg" alt="" />
